@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Glass+Antiqua&display=swap');
 
 @font-face{
-    font-family: 'Android';
+    font-family: 'android';
     src: url('/fontes/idroid0.otf') format('opentype');
     font-weight: normal;
-
 }
 
 :root{
@@ -19,7 +18,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', sans-serif;
-    --font-android: 'Android' , sans-serif;
+    --font-android: 'android' , sans-serif;
 }
 
 *{

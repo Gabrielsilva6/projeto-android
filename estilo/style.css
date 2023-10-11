@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Glass+Antiqua&display=swap');
 
-@font-face{
-    font-family: 'android';
-    src: url('/fontes/idroid0.otf') format('opentype');
-    font-weight: normal;
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/IDroid.otf');
 }
 
 :root{
@@ -18,7 +18,8 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', sans-serif;
-    --font-android: 'android' , sans-serif;
+    --font-android: 'Android', cursive;
+
 }
 
 *{
@@ -41,12 +42,12 @@ header{
     text-align: center;
 }
 
-header > h1{
+header h1{
     color: white;
     font-family: var(--font-destaque);
     padding-top: 40px;
     font-size: 3em;
-    font-weight: var(--font-android);
+    font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
@@ -101,14 +102,14 @@ main img.pequena{
     margin: auto;
 }
 
-main > h1{
-    color: var(--cor5);
+main h1{
     font-family: var(--font-android);
+    color: var(--cor5);
     font-weight: normal;
     font-size: 1.8em;
 }
 
-main > article > h2{
+main h2{
     font-family: var(--font-android);
     color: var(--cor4);
     font-size: 1.3em;
